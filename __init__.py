@@ -1,0 +1,1 @@
+pelican_vimeo/__init__.py
