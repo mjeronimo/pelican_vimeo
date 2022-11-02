@@ -132,7 +132,7 @@ class Vimeo(Directive):
         if "t" in self.options:
             url += "#t=" + quote(self.options["t"])
 
-        div_block = '<div class="vimeo" align="{}">'.format(align)
+        div_block = '<div class="vimeo vimeo-16x9" align="{}">'.format(align)
         embed_block = (
             '<iframe width="{}" height="{}" src="{}" '
             'frameborder="0" webkitAllowFullScreen '
